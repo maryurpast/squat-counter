@@ -1,0 +1,51 @@
+body {
+  background-image: url("squat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  background: white;
+  max-width: 80%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 10px 0px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid black;
+  padding: 10px 0;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: #2c2891;
+}
+
+#save-btn {
+  background: #1c7947;
+}
+
+#save-el {
+  font-weight: bold;
+}
